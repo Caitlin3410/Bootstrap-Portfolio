@@ -9,7 +9,7 @@ body {
 
 .navbar {
     background: #685d79;
-    border-bottom: 2px solid #fcbb6d;
+    border-bottom: 2px solid #ab6c82;
 }
 
 .nav-link,
@@ -27,12 +27,12 @@ body {
 }
 
 #image1 {
-    border: 7px solid #ab6c82;
+    border: 7px solid #fcbb6d;
     padding: 0px;
     float: inline-start;
 }
 
-footer {
+.footer {
     position: fixed;
     height: 100px;
     bottom: 0;
