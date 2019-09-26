@@ -10,5 +10,32 @@ body {
 .navbar {
     background: #685d79;
     border-bottom: 2px solid #fcbb6d;
-    text-decoration-color: aliceblue;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+#image1 {
+    border: 7px solid #ab6c82;
+    padding: 0px;
+    float: inline-start;
+}
+
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    background: black;
 }
