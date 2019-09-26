@@ -1,0 +1,14 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #475c7a;
+}
+
+
+/*--- navigation bar ---*/
+
+.navbar {
+    background: #685d79;
+    border-bottom: 2px solid #fcbb6d;
+    text-decoration-color: aliceblue;
+}
