@@ -9,7 +9,7 @@ body {
 
 .navbar {
     background: #685d79;
-    border-bottom: 2px solid #ab6c82;
+    border-bottom: 4px solid #ab6c82;
 }
 
 .nav-link,
@@ -26,16 +26,26 @@ body {
     justify-content: flex-end;
 }
 
-#image1 {
-    border: 7px solid #fcbb6d;
-    padding: 0px;
-    float: inline-start;
-}
-
 .footer {
     position: fixed;
     height: 100px;
     bottom: 0;
     width: 100%;
     background: black;
+}
+
+img {
+    max-width: 100%;
+    border: 7px solid #fcbb6d;
+    margin: 15px;
+    align-content: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+p {
+    text-align: justify;
 }
