@@ -49,3 +49,8 @@ main {
 p {
     text-align: justify;
 }
+
+textarea {
+    height: 100px;
+    width: 100%;
+}
