@@ -1,1 +1,0 @@
-[267, 306, 108].sort(function(a, b) { return b - a; })[0]
